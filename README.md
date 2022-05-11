@@ -58,7 +58,7 @@ Apartman/site sakinlerinin geri dönüşebilir kıymetli atıkları apartman hiz
   ![Screenshot 3](https://github.com/GitMustafaAksoy/oua_flutter_team_52/blob/main/ProjectManagement/Sprint1Documents/product3.png)
   ![Screenshot 4](https://github.com/GitMustafaAksoy/oua_flutter_team_52/blob/main/ProjectManagement/Sprint1Documents/product4.gif)
 - **Sprint Review**: 
-Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
+Alınan kararlar: Veritabanı olarak firebase servisleri aktif edilmiştir.  Sprint Review katılımcıları: Mustafa Aksoy
 
 - **Sprint Retrospective:**
   - Roller ile ilgili düzenleme yapılmış, scrum master değişmiştir.
