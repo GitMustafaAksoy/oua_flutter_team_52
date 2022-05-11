@@ -58,7 +58,7 @@ Apartman/site sakinlerinin geri dönüşebilir kıymetli atıkları apartman hiz
   ![Screenshot 3](https://github.com/GitMustafaAksoy/oua_flutter_team_52/blob/main/ProjectManagement/Sprint1Documents/product3.png)
   ![Screenshot 4](https://github.com/GitMustafaAksoy/oua_flutter_team_52/blob/main/ProjectManagement/Sprint1Documents/product4.gif)
 - **Sprint Review**: 
-Alınan kararlar: Veritabanı olarak firebase servisleri aktif edilmiştir.  Sprint Review katılımcıları: Mustafa Aksoy
+Alınan kararlar: Kullanıcı temel sayfaları oluşturulmuş, bazıları kodlanmış, arduino kurulumu ve firebase'e bağlanması sağlanmış, uygulama için veritabanı olarak firebase servisleri aktif edilmiş ve eksiklikler değerlendirilmiştir. Sprint Review katılımcıları: Mustafa Aksoy
 
 - **Sprint Retrospective:**
   - Roller ile ilgili düzenleme yapılmış, scrum master değişmiştir.
