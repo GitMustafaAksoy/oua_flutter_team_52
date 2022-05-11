@@ -63,7 +63,7 @@ Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için g
 - **Sprint Retrospective:**
   - Roller ile ilgili düzenleme yapılmış, scrum master değişmiştir.
   - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.
-  - Takım üyelerinin gelecek sprintlerde aktif olmasına vurgu yapılmıştır.
+  - Takım üyelerinin gelecek sprintlerde aktif olması gerektiğine vurgu yapılmıştır.
  
 
 -**Diğer Notlar**:
