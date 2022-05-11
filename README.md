@@ -49,7 +49,7 @@ Apartman/site sakinlerinin geri dönüşebilir kıymetli atıkları apartman hiz
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
 
 - **Sprint board update**: Sprint board screenshotları: 
-![Backlog 1](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog1.png) 
+![Backlog 1](https://raw.githubusercontent.com/GitMustafaAksoy/oua_flutter_team_52/main/ProjectManagement/Sprint1Documents/backlog1.png) 
 
 
 - **Ürün Durumu**: Ekran görüntüleri:
