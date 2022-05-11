@@ -77,7 +77,7 @@ Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için g
 -**Diğer Notlar**:
 - N/A
 
----
+---s
 
 # Sprint 2
 
