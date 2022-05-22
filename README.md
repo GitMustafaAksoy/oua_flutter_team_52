@@ -66,12 +66,29 @@ Alınan kararlar: Kullanıcı temel sayfaları oluşturulmuş, bazıları kodlan
   - Takım üyelerinin gelecek sprintlerde aktif olması gerektiğine vurgu yapılmıştır.
  
 
--**Diğer Notlar**:
-- N/A
 
 ---
 
 # Sprint 2
+
+
+- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/GitMustafaAksoy/oua_flutter_team_52/blob/main/ProjectManagement/Sprint2Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
+
+- **Sprint board update**: Sprint board screenshotları: 
+![Backlog 1](https://raw.githubusercontent.com/GitMustafaAksoy/oua_flutter_team_52/main/ProjectManagement/Sprint1Documents/backlog1.png) 
+
+
+- **Ürün Durumu**: Ekran görüntüleri:
+  ![Screenshot 1](https://github.com/GitMustafaAksoy/oua_flutter_team_52/blob/main/ProjectManagement/Sprint2Documents/1.jpeg)
+  ![Screenshot 2](https://github.com/GitMustafaAksoy/oua_flutter_team_52/blob/main/ProjectManagement/Sprint2Documents/2.jpeg)
+  ![Screenshot 3](https://github.com/GitMustafaAksoy/oua_flutter_team_52/blob/main/ProjectManagement/Sprint2Documents/3.jpeg)
+- **Sprint Review**: 
+Alınan kararlar: Kullanıcı temel sayfaların arayüzleri, algoritmaları kodlanmış, firebase servislerine bağlantıları yapılmış ve eksiklikleri değerlendirilmiştir. 
+Sprint Review katılımcıları: Mustafa Aksoy, Yunus Emre Gürel, Sümeyye Aydoğan 
+
+- **Sprint Retrospective:**
+
+  - Takım üyelerinin gelecek sprintlerde aktif olması gerektiğine vurgu yapılmıştır.
 
 
 ---
