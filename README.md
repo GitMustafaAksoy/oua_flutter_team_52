@@ -45,6 +45,11 @@ Apartman/site sakinlerinin geri dönüşebilir kıymetli atıkları apartman hiz
 
 # Sprint 1
 
+- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+
+
+- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+
 
 - **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Whatsapp üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/GitMustafaAksoy/oua_flutter_team_52/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
 
