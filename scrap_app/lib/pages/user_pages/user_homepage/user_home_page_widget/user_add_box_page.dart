@@ -107,6 +107,8 @@ class _UserAddBoxPageState extends State<UserAddBoxPage> {
             ),
             Column(
               children: [
+                SizedBox(height: 15),
+                const Text('Try 00002 for boxId'),
                 Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 16),
                   child: TextField(

@@ -48,7 +48,7 @@ class _PlanRowState extends State<PlanRow> {
   @override
   Widget build(BuildContext context) {
     return ListTile(
-      title: const Text('Son Satılanlar'),
+      title: const Text('Recent Purchases'),
       trailing: IconButton(
         onPressed: () {
           setState(() {});

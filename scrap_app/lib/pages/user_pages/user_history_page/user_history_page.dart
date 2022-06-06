@@ -85,7 +85,7 @@ class _PlanRowState extends State<PlanRow> {
       child: Row(
         children: const <Widget>[
           HistoryCard(
-            text: 'Son Satılanlar',
+            text: 'Recent Purchases',
             cardColor: LightColors.paperBox,
           ),
         ],
