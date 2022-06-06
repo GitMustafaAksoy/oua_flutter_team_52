@@ -5,8 +5,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:line_awesome_flutter/line_awesome_flutter.dart';
 import 'package:scrap_app/utilities/login/google_sign_in_page.dart';
 import 'package:scrap_app/utilities/login/login_screen.dart';
-import 'package:scrap_app/utilities/pages/acc_page/theme.dart';
-import 'package:scrap_app/utilities/pages/acc_page/widgets/profile_list_item.dart';
+import 'package:scrap_app/utilities/shared_pages/acc_page/theme.dart';
+import 'package:scrap_app/utilities/shared_pages/acc_page/widgets/profile_list_item.dart';
 
 import 'admin_settings_page.dart';
 

@@ -125,7 +125,7 @@ class _SplashScreenState extends State<SplashScreen> {
                             fontWeight: FontWeight.bold,
                           ),
                         ),
-                        const SizedBox(height: 30.0),
+                        const SizedBox(height: 10.0),
                         _buildEmailTF(),
                         const SizedBox(
                           height: 10.0,
@@ -134,6 +134,7 @@ class _SplashScreenState extends State<SplashScreen> {
                         _buildForgotPasswordBtn(),
                         _buildRememberMeCheckbox(),
                         _buildLoginBtn(),
+                        _continueWithoutLogin(),
                         _buildSignInWithText(),
                         _buildSocialBtnRow(),
                         _buildSignupBtn(),
@@ -262,7 +263,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   Widget _buildLoginBtn() {
     return Container(
-      padding: const EdgeInsets.symmetric(vertical: 25.0),
+      padding: const EdgeInsets.symmetric(vertical: 20.0),
       width: double.infinity,
       child: ElevatedButton(
 
@@ -287,11 +288,35 @@ class _SplashScreenState extends State<SplashScreen> {
     );
   }
 
+  Widget _continueWithoutLogin() {
+    return Column(
+      children: <Widget>[
+        ElevatedButton(
+          style: ElevatedButton.styleFrom(
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(50)),
+              primary: Colors.red,
+              textStyle:
+              const TextStyle(fontSize: 14, fontWeight: FontWeight.bold)),
+          onPressed: () {
+            Navigator.of(context).push(MaterialPageRoute(builder: (context) {
+              return const ContinueWithoutLoginPage();
+            },));
+          },
+          child: const Text(
+            'Continue Without Login',
+            style: kLabelStyle,
+          ),
+
+        ),
+      ],
+    );
+  }
 
   Widget _buildSignInWithText() {
     return Column(
       children: const <Widget>[
-        SizedBox(height: 20.0),
+        SizedBox(height: 10.0),
         Text(
           'Sign in with',
           style: kLabelStyle,
@@ -349,11 +374,7 @@ class _SplashScreenState extends State<SplashScreen> {
                           .collection('users')
                           .doc(uid)
                           .get();
-                      DocumentSnapshot<Map<String, dynamic>> toCheckUserExists =
-                      await FirebaseFirestore.instance
-                          .collection('users')
-                          .doc(uid)
-                          .get();
+
                       await FirebaseFirestore.instance
                           .collection('users')
                           .doc(uid)
@@ -361,20 +382,14 @@ class _SplashScreenState extends State<SplashScreen> {
                         'name': name,
                         'email': email,
                         'uid': uid,
-                        if (toCheckUserExists.exists == false)
+                        if (toCheckUserData.exists == false)
                           'role': 'user',
-                        'isUserSignIn': true,
-                        'lastLoginTime': FieldValue.serverTimestamp(),
-                        if (toCheckUserExists.exists == true &&
+                        if (toCheckUserData.exists == true &&
                             toCheckUserData['role'] == 'admin')
                           'role': 'admin',
-                        'isAdminSignIn': true,
-                        'lastLoginTime': FieldValue.serverTimestamp(),
-                        if (toCheckUserExists.exists == true &&
+                        if (toCheckUserData.exists == true &&
                             toCheckUserData['role'] == 'scrap dealer')
                           'role': 'scrap dealer',
-                        'isAdminSignIn': true,
-                        'lastLoginTime': FieldValue.serverTimestamp(),
                       }, SetOptions(merge: true));
                       isUserLoggedIn();
                 },

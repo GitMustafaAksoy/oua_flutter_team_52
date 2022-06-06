@@ -59,7 +59,7 @@ class _GorunumState extends State<Gorunum> {
                                         fontWeight: FontWeight.w500)),
                               ],
                             ),
-                            SizedBox(width: 50,),
+                            const SizedBox(width: 50,),
                             Row(
                               children: const [
                                 Icon(

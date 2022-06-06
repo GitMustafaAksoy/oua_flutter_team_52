@@ -16,8 +16,6 @@ class _ContinueWithoutLoginPageState extends State<ContinueWithoutLoginPage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: const [
             Text('Kutu Sayısı'),
-            Text('Uygulamayı Kullanan Şehirler'),
-            Text(''),
           ],
         ),
       ),

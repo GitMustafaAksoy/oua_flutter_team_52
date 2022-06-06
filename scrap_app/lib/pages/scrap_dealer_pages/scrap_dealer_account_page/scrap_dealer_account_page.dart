@@ -7,8 +7,9 @@ import 'package:scrap_app/pages/scrap_dealer_pages/scrap_dealer_account_page/scr
 import 'package:scrap_app/pages/scrap_dealer_pages/scrap_dealer_history_page/scrap_dealer_purchace_history_page.dart';
 import 'package:scrap_app/utilities/login/google_sign_in_page.dart';
 import 'package:scrap_app/utilities/login/login_screen.dart';
-import 'package:scrap_app/utilities/pages/acc_page/theme.dart';
-import 'package:scrap_app/utilities/pages/acc_page/widgets/profile_list_item.dart';
+import 'package:scrap_app/utilities/shared_pages/acc_page/theme.dart';
+import 'package:scrap_app/utilities/shared_pages/acc_page/widgets/profile_list_item.dart';
+
 
 
 

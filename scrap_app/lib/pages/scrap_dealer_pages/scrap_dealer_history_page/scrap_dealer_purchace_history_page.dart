@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:scrap_app/utilities/pages/history_page/history_card.dart';
 
+import '../../../utilities/shared_pages/history_page/history_card.dart';
 import '../scrap_dealer_homepage/theme/colors/light_colors.dart';
 
 
