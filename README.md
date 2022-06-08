@@ -39,6 +39,10 @@ Scrap App, daire sakinleri tarafından biriktirilmiş apartman ve sitelere ait k
 - Geri dönüşüm merkezleri
 - Geri dönüşüm atık toplayıcıları
 
+## Juriye Not
+
+İlan formu veritabanına başarılı şekilde veri göndermesine rağmen, tecrübe yetersizliği ve zaman eksikliği sebebiyle ilanlar listesi ve teklif formları veritabanıyla ilişkilendirilememiştir.
+
 
 ## Product Backlog URL
 
